@@ -1,0 +1,194 @@
+body {
+   min-width: 630px;
+}
+a{
+    text-decoration: none;
+}
+.container {
+   padding-left: 200px;
+   padding-right: 190px;
+}
+
+.container .column {
+   position: relative;
+   float: left;
+}
+
+.center {
+   padding: 10px 20px;
+   width: 100%;
+}
+
+.left {
+   width: 180px;
+   padding: 0 10px;
+   right: 240px;
+   margin-left: -100%;
+}
+
+.right {
+   width: 130px;
+   padding: 0 10px;
+   margin-right: -100%;
+}
+
+.footer {
+   clear: both;
+}
+.container {
+   overflow: hidden;
+}
+.container .column {
+   padding-bottom: 1001em;
+   margin-bottom: -1000em;
+}
+
+.footer-wrapper {
+   float: left;
+   position: relative;
+   width: 100%;
+   background: #fff;
+}
+body {
+   margin: 0;
+   padding: 0;
+   font-family:Sans-serif;
+   line-height: 1.5em;
+}
+p {
+   color: #555;
+}
+
+nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0 0 0 0;
+}
+nav ul a {
+   color: dimgray;
+}
+nav ul a:hover{
+    color: #fff;
+    text-decoration-line: underline;
+}
+.header, .footer {
+   font-size: large;
+   padding: 0.3em;
+   background: #ffd9e5;
+    
+    display: flex;
+    align-items:center;
+}
+
+.header img, .footer img{
+    padding-right: 40px; 
+    padding-left:20px;  
+}
+
+.left {
+   background: #fcc1f0;
+}
+.right {
+   background: #ffecf2;
+}
+.center {
+   background: #fff;
+}
+.container .column {
+   padding-top: 1em;
+}
+
+h1{
+    font-size: 30px;
+    color:#696969;
+}
+
+
+
+.about{
+    font-size: 20px;
+    font-weight: 800;
+    color: #e00c7f;
+    line-height: 30px; 
+}
+
+.user-details{
+    width: 30%;
+    float: left;
+    margin-right:100px;
+}
+
+.user-details label{
+    font-size: 12px;
+    color: #a9a9a9;
+}
+
+.user-details input,.user-details select, .user-details textarea{
+    width: 100%;
+    border:none;
+    border-bottom: grey solid 1px;
+    
+}
+
+.user-details p.form-colum{  
+    width: 30%;
+    float: left;
+
+}
+
+#form-phone{
+    margin-left: 10%;
+    width: 60%;
+}
+
+.user-details input[type ="checkbox"]{
+    width:auto;
+    
+}
+
+button{
+    margin-top: 40px;
+    width: 80px;
+    height: 30px;
+    border: none;
+    background-color:#e0e0e0;
+    color: #959595;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+}
+
+
+.media{
+    margin: 50px 0px 50px 50px;
+    font-weight: bold;
+    color: dimgrey;
+}
+
+
+
+table{
+    
+    border-collapse:collapse;
+    empty-cells: hide;
+}
+tr,td,th{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ad8f55;
+}
+th{
+    background-color: #838888;
+    color: #fff;
+    padding:10px 40px;
+}
+
+td[colspan]{
+    text-align: right;
+}
+
+
+
+
+
