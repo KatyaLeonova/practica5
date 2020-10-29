@@ -4,6 +4,8 @@
    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
    <title>LoveCamera | Слайдер</title>
    <link rel="stylesheet" href="assets/css/layout.css">
+   <link rel="stylesheet" href="assets/css/slider.css">
+   
 </head>
 <body>
 <header class="header">
@@ -14,8 +16,14 @@
 <div class="container">
    <main class="center column">
        <article>
-           <h1>Слайдер фотографий</h1>
-           <p></p>
+           <h1>Другие наши приложения</h1>
+           
+           <div id='mySlider'>
+               
+           </div>
+                <button onclick="prevSlide()">Назад</button>
+                <button onclick="nextSlide()">Вперёд</button>
+           
        </article>
    </main>
    <nav class="left column">
@@ -41,5 +49,8 @@
        <p>Footer...</p>
    </footer>
 </div>
+
+<script src="assets/js/script.js"></script>
 </body>
+
 </html>
