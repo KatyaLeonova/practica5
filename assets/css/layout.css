@@ -190,5 +190,57 @@ td[colspan]{
 
 
 
+canvas{
+    border: 2px solid #838888;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paint{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.paint button{
+    margin-top: 0;
+    width: 100px;
+    border-radius: 50px;
+    background-color: #b189a6;
+    color:#fff;
+}
+
+.paint input{
+     border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

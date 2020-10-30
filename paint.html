@@ -2,8 +2,9 @@
 <html>
 <head>
    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-   <title>LoveCamera | О нас</title>
+   <title>LoveCamera | Рисование</title>
    <link rel="stylesheet" href="assets/css/layout.css">
+   
 </head>
 <body>
 <header class="header">
@@ -14,10 +15,25 @@
 <div class="container">
    <main class="center column">
        <article>
-           <h1>О нашем приложении</h1>
-           <p class="about">Хотите сфотографировать с вашим художественным или творческим замыслом? С LoveCamera это легко и идеально.<br>
-                Включите LoveCamera, выберите фильтр и сделайте снимок. Сделайте захватывающие и потрясающие фотографии и Селфи!<br>
-                LoveCamera - это приложение для камеры с множеством фильтров для сохранения ваших лучших моментов. </p>
+           <h1>Область рисования</h1>
+           
+           
+           <canvas id="draw" width="600" height="300"></canvas>
+           
+           <div class="paint">
+              <div>
+                  <label for="color">Выберете цвет кисти: </label>
+                   <input type="color" id="color"/>
+              </div>
+               
+               <div>
+                   <label for="size">Введите размер кисти: </label>
+                   <input type="size" id="size"/ placeholder="Например: 1, 8, 12, 48, 100">
+               </div>
+                   <button onclick="clearCanvas()">Очистить</button>                      
+           </div>
+           
+
        </article>
    </main>
    <nav class="left column">
@@ -44,5 +60,8 @@
        <p>Footer...</p>
    </footer>
 </div>
+
+<script src="assets/js/paint.js"></script>
 </body>
+
 </html>
